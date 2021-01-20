@@ -1,0 +1,14 @@
+{
+  "name": "villekulla-map",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "tile-optimizer -i src/map.json -o ./site"
+  },
+  "dependencies": {
+    "tile-optimizer": "github:thecodingmachine/map-optimizer#master"
+  },
+  "devDependencies": {
+    "prettier": "2.2.1"
+  }
+}
