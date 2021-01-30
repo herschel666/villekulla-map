@@ -3,12 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "start": "tile-optimizer -i src/map.json -o ./site"
+    "start": "tile-optimizer -i src/map.json -o ./site",
+    "serve": "serve -l 8080 -n site"
   },
   "dependencies": {
     "tile-optimizer": "github:thecodingmachine/map-optimizer#master"
   },
   "devDependencies": {
-    "prettier": "2.2.1"
+    "prettier": "2.2.1",
+    "serve": "11.3.2"
   }
 }
