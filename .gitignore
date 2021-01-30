@@ -1,3 +1,4 @@
 node_modules
 site/*.json
 site/*.png
+!site/map.png
