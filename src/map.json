@@ -67,7 +67,7 @@
                 {
                  "name":"jitsiRoom",
                  "type":"string",
-                 "value":"tab1"
+                 "value":"tab2"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -85,7 +85,7 @@
                 {
                  "name":"jitsiRoom",
                  "type":"string",
-                 "value":"tab1"
+                 "value":"tab3"
                 }],
          "type":"tilelayer",
          "visible":true,
