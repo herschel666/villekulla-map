@@ -47,6 +47,13 @@
         line-height: 2;
       }
 
+      .cat {
+        height: 4rem;
+        margin: 2rem 0;
+        background: transparent url(nyan-cat.gif) center top no-repeat;
+        background-size: auto 100%;
+      }
+
       .map {
         display: block;
         margin-bottom: 2rem;
@@ -59,15 +66,17 @@
       }
 
       .enter {
-        display: inline-block;
+        display: flex;
         margin: 3rem 0;
         font-size: x-large;
+        justify-content: center;
       }
     </style>
   </head>
   <body>
     <main>
       <h1>Dakis Birthday Pawdey</h1>
+      <div class="cat" aria-hidden="true"></div>
       <div class="nes-balloon from-left is-dark">
         <p>Willkommen zur virtuellen Party! 🎉</p>
         <p>
@@ -98,11 +107,13 @@
         </p>
         <p>Viel Spaß!</p>
       </div>
-      <a
-        class="enter nes-btn is-primary"
-        href="https://play.workadventu.re/_/global/herschel666.github.io/villekulla-map/map.json"
-        >Location betreten</a
-      >
+      <div class="enter">
+        <a
+          class="nes-btn is-primary"
+          href="https://play.workadventu.re/_/global/herschel666.github.io/villekulla-map/map.json"
+          >Location betreten</a
+        >
+      </div>
       <img
         src="map.png"
         alt="Screenshot of the Work Adventure map"
