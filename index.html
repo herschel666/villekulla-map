@@ -3,24 +3,115 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Villekulla Map</title>
-    <style>
+    <title>Dakis Birthday Pawdey</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/nes.css/2.3.0/css/nes.min.css"
+      integrity="sha256-wLUnaaQIEYrGypLYlA5326irkul4CcQ2WEhPgeqDt1Y="
+      crossorigin="anonymous"
+    />
+    <style type="text/css">
+      /* latin */
+      @font-face {
+        font-family: 'Press Start 2P';
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: local('Press Start 2P Regular'), local('PressStart2P-Regular'),
+          url(https://fonts.gstatic.com/s/pressstart2p/v8/e3t4euO8T-267oIAQAu6jDQyK3nVivNm4I81.woff2)
+            format('woff2');
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+    </style>
+    <style type="text/css">
       html {
         font-size: 150%;
+      }
+
+      body {
+        padding: 2rem;
+        background: #111;
+        color: #fafafa;
+      }
+
+      main {
+        max-width: 1330px;
+        margin: 0 auto;
+      }
+
+      h1 {
+        text-shadow: 0 5px 0 #209cee, 0 6px 0 #209cee, 0 7px 0 #209cee;
+        font-size: 3em;
+        line-height: 2;
+      }
+
+      .map {
+        display: block;
+        margin-bottom: 2rem;
+        max-width: 100%;
+        height: auto;
+      }
+
+      .nes-balloon {
+        margin: calc(8px + 1rem) 8px;
+      }
+
+      .enter {
+        display: inline-block;
+        margin: 3rem 0;
+        font-size: x-large;
       }
     </style>
   </head>
   <body>
-    <p>
-      This website contains a map for
-      <a href="https://workadventu.re">Workadventu.re</a>.
-    </p>
-    <p>
-      You can access this map at
+    <main>
+      <h1>Dakis Birthday Pawdey</h1>
+      <div class="nes-balloon from-left is-dark">
+        <p>Willkommen zur virtuellen Party! 🎉</p>
+        <p>
+          Nach dem Betreten der Location musst du dir einen Avatar auswählen
+          oder gestalten. Anschließend kommst du in den virtuellen Raum.
+        </p>
+      </div>
+      <div class="nes-balloon from-left is-dark">
+        <p>
+          Im virtuellen Raum kannst du dich mit bis zu vier Personen
+          gleichzeitig unterhalten, solange ihr beieinander steht.
+        </p>
+        <p>
+          Willst du mit mehr als vier Personen einen Video-Chat starten, gehe
+          auf eine der rot markierten Flächen (siehe unten). Dort wird eine
+          Jitsi-Session starten.
+        </p>
+        <p>Verlasse die Fläche wieder, um den Video-Chat zu beenden.</p>
+      </div>
+      <div class="nes-balloon from-left is-dark">
+        <p>
+          Sollte irgend etwas nicht wie gewünscht funktionieren, lade das
+          Browserfenster neu und starte von vorn.
+        </p>
+        <p>
+          Wenn du keine Lust mehr auf Party hast, schließe einfach das
+          Browserfenster.
+        </p>
+        <p>Viel Spaß!</p>
+      </div>
       <a
+        class="enter nes-btn is-primary"
         href="https://play.workadventu.re/_/global/herschel666.github.io/villekulla-map/map.json"
-        >https://play.workadventu.re/_/global/herschel666.github.io/villekulla-map/map.json</a
+        >Location betreten</a
       >
-    </p>
+      <img
+        src="map.png"
+        alt="Screenshot of the Work Adventure map"
+        class="map"
+      />
+      <p>
+        Powered by
+        <a href="https://workadventu.re" target="_blank">Workadventu.re</a>.
+      </p>
+    </main>
   </body>
 </html>
